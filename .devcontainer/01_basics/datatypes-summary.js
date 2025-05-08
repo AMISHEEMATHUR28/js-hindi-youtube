@@ -35,3 +35,29 @@ let myObj={
  console.log(typeof anotherId);
 
  //https://262.ecma-international.org/5.1/
+
+
+
+ //+++++++++++++++++++++++++++++++++++++++
+
+ // Stack (Primitive), Heap (Non-Primitive)
+
+ let myYoutubename = "amisheemathurcom"
+
+ let anothername = myYoutubename
+anothername ="anniemathur"
+ 
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne ={
+    email: "user@goggle.com",
+    upi: "user@ybl"
+};
+
+let userTwo = userOne
+
+userTwo.email ="amishee@goggle.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
